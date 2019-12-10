@@ -1,0 +1,18 @@
+Bojonegoro National Amil Zakat Agency (BAZNAS) is
+one of the institutions responsible for receiving and
+distribute zakat in Bojonegoro district. In determining the recipient
+zakat is still done manually according to existing criteria. That matter
+making the selection of potential recipients of zakat less effective in time.
+Therefore it is necessary to have a computerized system or Decision Support System for determining the recipient of zakat based
+existing criteria. The criteria that will be used in this study are four, namely the condition of the house, economic conditions, physical conditions and
+dependents. The system that will be built in this research is useful
+Weighted Product method, Weighted Product method was chosen because
+able to select the best alternatives from a number of alternatives and
+its superiority in weighting techniques. Research carried out with
+find the weight value for each criterion, then do it
+ranking that will produce the best alternative. With the system
+it is expected to be able to facilitate the National Amil Zakat Agency
+Bojonegoro Regency to determine the priority of beneficiary eligibility
+zakat. From the test results, the system produces the highest level of accuracy of 92% when compared with the results of manual processing by the National Amil Zakat Board (BAZNAS) of Bojonegoro Regency.
+Keywords: recipient of zakat, Decision Support System, Weighted
+Product.

@@ -1,0 +1,23 @@
+Cloud computing is a technology model wherein the source
+power such as computer components (processor, memory, network,
+storage) is no longer tangible concrete material, but abstract. False
+one service from the cloud is Cloud Storage. With Cloud facilities
+storage, users can do digital data storage through
+Internet Network. But because every data is sent through the path
+communication, there are obstacles in the form of noise (noise), where noise
+can change and degrade data quality
+transmitted.To overcome the above problems then it can
+done through cryptographic techniques combined with
+Forward Error Correction (FEC) Turbo Code. Simulation results
+indicates that the data is encrypted and uploaded into Dropbox
+and goes well. Then the analysis results show
+the percentage of data in the form of text, image and sound will return 100%
+on SNR 14 dB. In addition there is a decrease in the Bit error Rate (BER).
+In the trial avalance effect based on data types namely at
+text file obtained the highest avalance effect of 56.6460%
+with the same file conditions but the key entered is different.
+For image files, the highest avalanche effect is 55.0781%
+with different file conditions but the keys are entered the same.
+As for sound files, the highest avalance effect is obtained
+49.6094% with different file conditions but the key is in
+input the same. In testing the data execution time, the greater the encrypted data the longer the time required for encryption and decryption. Thus the combination of encryption with Turbo Code can overcome the above problems.

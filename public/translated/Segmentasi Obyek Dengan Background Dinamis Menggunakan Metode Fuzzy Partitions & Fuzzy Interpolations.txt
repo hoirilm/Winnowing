@@ -1,0 +1,15 @@
+Image segmentation is the most important stage in
+improve pattern recognition. Until now there has been no method
+optimal segmentation for images with dynamic background.
+Segmentation aims to divide the image procedure into
+some basic parts of the image compiler. In this research
+segmentation will only divide two parts of the image, i.e.
+main object and background parts. The dataset used in
+This study uses the Fish dataset. Preprocessing is done
+first with the method of histogram equalization. Algorithm
+Image segmentation that will be used in this research is
+with the Fuzzy Partitions and fuzzy partitions methods. Fuzzy Method
+Partitions are used for the segmentation process by dividing
+partition on the image. Fuzzy Interpolations to improve quality
+the result of segmenting the main object from a background. After
+conducted research, segmentation of objects with dynamic background in this study shows an accuracy value of 99.60% using the fuzzy partitions and fuzzy interpolations methods.
