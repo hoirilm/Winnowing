@@ -1,10 +1,10 @@
 Image segmentation is the most important stage in
 improve pattern recognition. Until now there has been no method
-optimal segmentation for images with dynamic background.
+optimal segmentation for images with dynamic backgrounds.
 Segmentation aims to divide the image procedure into
-some basic parts of the image compiler. In this research
+some of the main constituents of the image. In this research
 segmentation will only divide two parts of the image, i.e.
-main object and background parts. The dataset used in
+main object parts and background. The dataset used in
 This study uses the Fish dataset. Preprocessing is done
 first with the method of histogram equalization. Algorithm
 Image segmentation that will be used in this research is

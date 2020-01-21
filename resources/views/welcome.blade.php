@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Winnowing Algorithm | <strong>Google Translate</strong>
+                    Winnowing | <strong>Google Translate</strong>
                 </div>
 
                 <div class="links">

@@ -121,6 +121,10 @@ class AdvanceController extends Controller
         function fingerprint($wgram, $hasilWindow, $hasilHashing)
         {
             // FINGERPRINT
+            // contoh_hashing = array(713, 713, 713, 703, 703, 699, 732, 705, 746, 713, 758, 713); //10
+
+            // contoh_window = [713, 713, 713], [713, 713, 703], [713, 703, 703], [703, 703, 699], [703, 699, 732], [699, 732, 705] dst
+            
             $batas_pembanding = $wgram;
             $min_pos = array();
             $min = array();
@@ -128,7 +132,8 @@ class AdvanceController extends Controller
                 $minimum = min($hasilWindow[$i]); // mengambil nilai minimum dari tiap rangkaian window
                 if (!in_array($minimum, $min)) { // cek apakah nilai minimum yang didapat sudah ada di array min atau tidak
 
-                    // PENENTUAN POSISI
+                    // PENENTUAN POSISI ========================== dilakukan saat nilai minumum tidak ada di array
+
                     $position = 0;
                     for ($k = 0; $k < count(array_slice($hasilHashing, 0, $batas_pembanding)); $k++) {
                         // for ($k = 0; $k < $batas_pembanding; $k++) { // dilakukan perulangan dari index 0 sampai $batas_pembanding / banyaknya nilai wgram
@@ -136,8 +141,9 @@ class AdvanceController extends Controller
                             // if ($hasilHashing[$k] <= $minimum) { // jika nilai hashing index ke $k <= nilai minimum,
                             $position = $k; // maka nilai posisition akan di replace ditiap perulangan
                         }
-                    }
-                    // END PENENTUAN POSISI
+                    } // akan terus looping sampai dengan batas pembanding
+
+                    // END PENENTUAN POSISI =======================
 
                     $min_pos[] = $minimum . "," . $position; // menggabungkan nilai minimum dengan nilai posisi baru
                     $min[] = $minimum; // menggabungkan nilai minimum dengan nilai posisi baru

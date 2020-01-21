@@ -263,11 +263,12 @@ class DocumentsController extends Controller
      * @param  \App\Document  $document
      * @return \Illuminate\Http\Response
      */
-    public function show($document)
+    public function show($document) // parameter
     {
         // return $document;
         $document =  Document::find($document);
         return view('corpus.detail', compact('document'));
+        // return view('corpus.detail', ['document' => $document]);
     }
 
     /**

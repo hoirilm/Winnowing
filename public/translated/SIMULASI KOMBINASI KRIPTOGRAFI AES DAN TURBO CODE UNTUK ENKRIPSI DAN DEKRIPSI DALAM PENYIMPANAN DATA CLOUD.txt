@@ -10,7 +10,7 @@ transmitted.To overcome the above problems then it can
 done through cryptographic techniques combined with
 Forward Error Correction (FEC) Turbo Code. Simulation results
 indicates that the data is encrypted and uploaded into Dropbox
-and goes well. Then the analysis results show
+and goes well. Then the results of the analysis show
 the percentage of data in the form of text, image and sound will return 100%
 on SNR 14 dB. In addition there is a decrease in the Bit error Rate (BER).
 In the trial avalance effect based on data types namely at
