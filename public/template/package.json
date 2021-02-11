@@ -5,7 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "@mdi/font": "^3.3.92",
-    "apexcharts": "^2.6.0",
+    "apexcharts": "^3.24.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.7.3",
     "font-awesome": "^4.7.0",
